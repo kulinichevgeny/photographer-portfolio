@@ -1,0 +1,71 @@
+// main: ../style.less
+
+.footer {
+	background-color: @black;
+	padding: 1rem 0;
+}
+
+.footer__inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__credits {
+	display: flex;
+	align-items: center;
+}
+
+.footer__copyright {
+	font-size: 0.94rem;
+	color: #bbbbcc;
+
+	padding-right: .8rem;
+	margin-right: 1rem;
+
+	border-right: 1px solid fade(@gray, 35%);
+}
+
+.footer__social {
+	display: flex;
+	align-items: center;
+
+	a {
+		margin-right: 1.2rem;
+	}
+}
+
+.footer__nav {
+	display: flex;
+	align-items: center;
+	font-size: 0.94rem;
+}
+
+.footer__nav-link {
+	color: #bbbbcc;
+	margin-left: 1.5rem;
+
+	&:not(.footer__nav-link--btn):hover {
+		text-decoration: underline;
+	}
+
+	&:visited {
+		color: #bbbbcc;
+	}
+
+
+	&--btn {
+		line-height: 1.1;
+
+		padding: .5rem 1.4rem;
+
+		border: 1px solid @lightGray;
+		border-radius: 20px;
+		transition: .2s linear;
+
+		&:hover {
+			background-color: @white;
+			border-color: @white;
+			color: @black;
+		}
+	}
+}
