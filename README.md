@@ -1,4 +1,4 @@
-# 	<a href="https://kulinichevgeny.github.io/uiux-designer-portfolio/">UI & UX Designer Portfolio</a> - Landing Page
+# 	<a href="https://kulinichevgeny.github.io/uiux-designer-portfolio/" target="_blank">UI & UX Designer Portfolio</a> - Landing Page
 
 <a href="https://kulinichevgeny.github.io/uiux-designer-portfolio/"><img src="./images/preview.gif"></a>
 
