@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>UI & UX Designer Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -25,13 +26,17 @@
                     </div>
                 </div>
 
-                <nav class="nav">
+                <nav class="nav" id="nav">
                     <a class="nav__link" href="#">Work</a>
                     <a class="nav__link" href="#">About me</a>
                     <a class="nav__link" href="#">Blog</a>
                     <a class="nav__link" href="#">Contact</a>
                     <a class="nav__link nav__link--btn" href="#">Hire Me</a>
                 </nav>
+
+                <button class="burger" type="button" id="navToggle">
+                    <img class="burger__icon" src="./images/burger.svg" alt="menu">
+                </button>
             </div>
         </div>
     </header>
@@ -79,7 +84,7 @@
             <div class="portfolio">
                 <div class="portfolio__col">
                     <div class="work">
-                        <img class="work__image" src="https://placehold.it/370x300/" alt="Work">
+                        <img class="work__image" src="./images/work.jpg" alt="Work">
                         <div class="work__content">
                             <div class="work__category">Category</div>
                             <div class="work__title">
@@ -92,7 +97,7 @@
 
                 <div class="portfolio__col">
                     <div class="work">
-                        <img class="work__image" src="https://placehold.it/370x300/" alt="Work">
+                        <img class="work__image" src="./images/work.jpg" alt="Work">
                         <div class="work__content">
                             <div class="work__category">Category</div>
                             <div class="work__title">
@@ -105,7 +110,7 @@
 
                 <div class="portfolio__col">
                     <div class="work">
-                        <img class="work__image" src="https://placehold.it/370x300/" alt="Work">
+                        <img class="work__image" src="./images/work.jpg" alt="Work">
                         <div class="work__content">
                             <div class="work__category">Category</div>
                             <div class="work__title">
@@ -118,7 +123,7 @@
 
                 <div class="portfolio__col">
                     <div class="work">
-                        <img class="work__image" src="https://placehold.it/370x300/" alt="Work">
+                        <img class="work__image" src="./images/work.jpg" alt="Work">
                         <div class="work__content">
                             <div class="work__category">Category</div>
                             <div class="work__title">
@@ -131,7 +136,7 @@
 
                 <div class="portfolio__col">
                     <div class="work">
-                        <img class="work__image" src="https://placehold.it/370x300/" alt="Work">
+                        <img class="work__image" src="./images/work.jpg" alt="Work">
                         <div class="work__content">
                             <div class="work__category">Category</div>
                             <div class="work__title">
@@ -144,7 +149,7 @@
 
                 <div class="portfolio__col">
                     <div class="work">
-                        <img class="work__image" src="https://placehold.it/370x300/" alt="Work">
+                        <img class="work__image" src="./images/work.jpg" alt="Work">
                         <div class="work__content">
                             <div class="work__category">Category</div>
                             <div class="work__title">
@@ -234,7 +239,7 @@
                         <div class="articles__header">
                             <time class="articles__date">10<br>June</time>
                             <a href="#">
-                                <img class="articles__photo img" src="https://placehold.it/370x257/ccc" alt="">
+                                <img class="articles__photo img" src="./images/article.jpg" alt="">
                             </a>
                         </div>
                         <div class="articles__content">
@@ -255,7 +260,7 @@
                         <div class="articles__header">
                             <time class="articles__date">10<br>June</time>
                             <a href="#">
-                                <img class="articles__photo img" src="https://placehold.it/370x257/ccc" alt="">
+                                <img class="articles__photo img" src="./images/article.jpg" alt="">
                             </a>
                         </div>
                         <div class="articles__content">
@@ -276,12 +281,12 @@
                         <div class="articles__header">
                             <time class="articles__date">10<br>June</time>
                             <a href="#">
-                                <img class="articles__photo img" src="https://placehold.it/370x257/ccc" alt="">
+                                <img class="articles__photo img" src="./images/article.jpg" alt="">
                             </a>
                         </div>
                         <div class="articles__content">
                             <h4 class="articles__title">
-                                <a href="#">changes in social media</a>
+                                <a href="#">changes in media</a>
                             </h4>
                             <div class="articles__category">Category</div>
                             <div class="articles__text">
@@ -342,6 +347,10 @@
 
         </div><!-- /.container -->
     </footer>
+
+
+    <!-- javascript -->
+    <script src="js/app.js"></script>
 </body>
 
 </html>

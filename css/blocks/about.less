@@ -1,24 +1,34 @@
 // main: ../style.less
 
 .about {
-	margin: 8.4rem 0;
+	margin: 12rem 0;
+
+	@media @tablet {
+		margin: 4rem 0;
+	}
 }
 
 .about__inner {
 	display: flex;
+	flex-wrap: wrap;
 	max-width: 1090px;
 }
 
 .about__photo,
 .about__content {
 	width: 50%;
+
+	@media @tablet {
+		width: 100%;
+	}
 }
 
 .about__photo {
 	position: relative;
 
 	img {
-		position: relative;
+		position: absolute;
+		bottom: 0;
 		z-index: 2;
 	}
 
@@ -32,11 +42,41 @@
 		bottom: 0;
 		z-index: 1;
 	}
+
+	@media @tablet {
+		order: 2;
+
+		&::before {
+			width: 100%;
+			height: 440px;
+			left: 0;
+		}
+		
+		img {
+			position: relative;
+		}
+	}
+
+	@media @mobile {
+		&::before {
+			height: 300px;
+		}
+	}
 }
 
 .about__content {
 	padding-left: 3.2rem;
 	margin-top: 2rem;
+
+	@media @tablet {
+		order: 1;
+		max-width: 600px;
+
+		margin: 0 auto 2rem;
+		padding-left: 0;
+
+		text-align: center;
+	}
 }
 
 .about__title {
@@ -44,6 +84,13 @@
 	font-weight: 700;
 	color: @black;
 	text-transform: uppercase;
+
+	@media @laptop {
+		font-size: 2.5rem;
+	}
+	@media @mobile {
+		font-size: 2rem;
+	}
 }
 
 .about__bigtitle {
@@ -57,6 +104,16 @@
 	left: -.6rem;
 
 	margin-bottom: 1.4rem;
+
+	@media @laptop {
+		font-size: 4rem;
+	}
+	@media @tablet {
+		position: static;
+	}
+	@media @mobile {
+		font-size: 3rem;
+	}
 }
 
 .about__text {
