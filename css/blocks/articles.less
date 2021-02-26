@@ -1,0 +1,71 @@
+// main: ../style.less
+
+.articles {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -1rem;
+}
+
+.articles__col {
+	width: 33.333%;
+	padding: 0 1rem;
+}
+
+.articles__item {
+	margin-bottom: 2rem;
+}
+
+.articles__header {
+	position: relative;
+	margin-bottom: 1.35rem;
+}
+
+.articles__date {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 77px;
+	height: 77px;
+	background-color: @black;
+
+	font-size: 1.06rem;
+	line-height: 1.4;
+	color: @white;
+	text-align: center;
+}
+
+.articles__content {
+	margin-bottom: 2rem;
+}
+
+.articles__title {
+	font-size: 1.2rem;
+	font-weight: 700;
+	color: @black;
+	text-transform: uppercase;
+
+	margin-bottom: .6rem;
+
+	a:hover {
+		text-decoration: underline;
+	}
+}
+
+.articles__category {
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	color: @black;
+
+	margin-bottom: 1.5rem;
+}
+
+.articles__text {
+	font-size: .8rem;
+	font-weight: 300;
+	line-height: 2;
+	color: @gray;
+}
