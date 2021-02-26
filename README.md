@@ -4,7 +4,7 @@
 
 ## About
 
-This is the UI & UX Designer Portfolio Landing Page. Made with HTML, LESS and love. Enjoy!
+This is the UI & UX Designer Portfolio Website - Landing Page. Made with HTML, LESS and love. Enjoy!
 
 ## Questions?
 
