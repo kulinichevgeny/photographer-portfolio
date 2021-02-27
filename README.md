@@ -1,15 +1,15 @@
-# 	<a href="https://kulinichevgeny.github.io/uiux-designer-portfolio/" target="_blank">UI & UX Designer Portfolio</a> - Landing Page
+# 	<a href="https://kulinichevgeny.github.io/photographer-portfolio/" target="_blank">Photographer Portfolio</a> - Landing Page
 
-<a href="https://kulinichevgeny.github.io/uiux-designer-portfolio/"><img src="./images/preview.gif"></a>
+<a href="https://kulinichevgeny.github.io/photographer-portfolio/"><img src="./images/preview.gif"></a>
 
 
 ## About
 
-This is the UI & UX Designer Portfolio Landing Page. Made with HTML, LESS and love. Enjoy!
+This is the Photographer Portfolio Landing Page. Made with HTML, LESS and love. Enjoy!
 
 ## Questions?
 
-Have a bug or an issue with this project? [Open a new issue](https://github.com/kulinichevgeny/ui-ux-designer-portfolio/issues/new) here on GitHub
+Have a bug or an issue with this project? [Open a new issue](https://github.com/kulinichevgeny/photographer-portfolio/issues/new) here on GitHub
 
 ## Developer
 
