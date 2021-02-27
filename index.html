@@ -12,83 +12,85 @@
 
 <body>
     <!-- header -->
-    <header class="header">
-        <div class="container">
-            <div class="header__inner">
+    <section class="mainscreen">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
 
-                <div class="user">
-                    <div class="user__avatar">
-                        <img src="./images/avatar.jpg" alt="Avatar">
+                    <div class="user">
+                        <div class="user__avatar">
+                            <img src="./images/header/avatar.jpg" alt="Avatar">
+                        </div>
+                        <div class="user__content">
+                            <div class="user__name">Kara<br>Shortle</div>
+                            <div class="user__prof">Photographer</div>
+                        </div>
                     </div>
-                    <div class="user__content">
-                        <div class="user__name">Lewis<br>Nathaniel</div>
-                        <div class="user__prof">UI &amp; UX Designer</div>
+
+                    <nav class="nav" id="nav">
+                        <a class="nav__link" href="##">Work</a>
+                        <a class="nav__link" href="##">About me</a>
+                        <a class="nav__link" href="##">Blog</a>
+                        <a class="nav__link" href="##">Contact</a>
+                        <a class="nav__link nav__link--btn" href="##">Hire Me</a>
+                    </nav>
+
+                    <button class="burger" type="button" id="navToggle">
+                        <img class="burger__icon" src="./images/icons/burger.svg" alt="menu">
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- intro -->
+        <section class="intro">
+            <div class="container">
+
+                <div class="intro__inner">
+                    <div class="intro__content">
+                        <h2 class="intro__suptitle">Hello I'm</h2>
+                        <h1 class="intro__title">Kara Shortle</h1>
+                        <div class="intro__text">Photographer</div>
+
+                        <div class="social">
+                            <a href="##" class="social__link"><img src="./images/icons/behance.svg" alt="Be"></a>
+                            <a href="##" class="social__link"><img src="./images/icons/instagram.svg" alt="In"></a>
+                            <a href="##" class="social__link"><img src="./images/icons/facebook.svg" alt="Fb"></a>
+                            <a href="##" class="social__link"><img src="./images/icons/flickr.svg" alt="Fl"></a>
+                            <a href="##" class="social__link"><img src="./images/icons/pinterest.svg" alt="P"></a>
+                            <a href="##" class="social__link"><img src="./images/icons/twitter.svg" alt="Tw"></a>
+                        </div>
+
+                        <a class="btn" href="##">Hire Me</a>
+                        <button class="btn" type="button">See My Resume</button>
                     </div>
+
+                    <img class="intro__photo" src="./images/intro/me.webp" alt="Me" width="330px">
                 </div>
 
-                <nav class="nav" id="nav">
-                    <a class="nav__link" href="##">Work</a>
-                    <a class="nav__link" href="##">About me</a>
-                    <a class="nav__link" href="##">Blog</a>
-                    <a class="nav__link" href="##">Contact</a>
-                    <a class="nav__link nav__link--btn" href="##">Hire Me</a>
-                </nav>
-
-                <button class="burger" type="button" id="navToggle">
-                    <img class="burger__icon" src="./images/burger.svg" alt="menu">
-                </button>
             </div>
-        </div>
-    </header>
-
-    <!-- intro -->
-    <section class="intro">
-        <div class="container">
-
-            <div class="intro__inner">
-                <div class="intro__content">
-                    <h2 class="intro__suptitle">Hello I'm</h2>
-                    <h1 class="intro__title">Lewis Nathaniel</h1>
-                    <div class="intro__text">UI &amp; UX Designer</div>
-
-                    <div class="social">
-                        <a href="##" class="social__link"><img src="./images/behance.svg" alt="behance"></a>
-                        <a href="##" class="social__link"><img src="./images/dribbble.svg" alt="dribbble"></a>
-                        <a href="##" class="social__link"><img src="./images/linkedin.svg" alt="linkedin"></a>
-                        <a href="##" class="social__link"><img src="./images/facebook.svg" alt="facebook"></a>
-                        <a href="##" class="social__link"><img src="./images/instagram.svg" alt="instagram"></a>
-                        <a href="##" class="social__link"><img src="./images/twitter.svg" alt="twitter"></a>
-                    </div>
-
-                    <a class="btn" href="##">Hire Me</a>
-                    <button class="btn" type="button">See My Resume</button>
-                </div>
-
-                <img class="intro__photo" src="./images/photo.png" alt="Man">
-            </div>
-
-        </div>
+        </section>
     </section>
 
     <!-- works -->
-    <div class="works" id="works"> 
+    <div class="works" id="works">
         <div class="container">
 
             <div class="works__nav">
                 <a class="works__nav-link" href="##">All</a>
-                <a class="works__nav-link" href="##">App</a>
-                <a class="works__nav-link" href="##">Websites</a>
-                <a class="works__nav-link" href="##">Interaction</a>
+                <a class="works__nav-link" href="##">Men</a>
+                <a class="works__nav-link" href="##">Women</a>
+                <a class="works__nav-link" href="##">Kids</a>
             </div>
 
             <div class="portfolio">
                 <div class="portfolio__col">
                     <div class="work">
-                        <img class="work__image" src="./images/work.jpg" alt="Work">
+                        <img class="work__image" src="./images/works/jessica.jpg" alt="Jessica">
                         <div class="work__content">
-                            <div class="work__category">Game Design</div>
+                            <div class="work__category">California</div>
                             <div class="work__title">
-                                Project
+                                Jessica Morton
                                 <time class="work__date" datetime="2021-02-25 12:00">2021</time>
                             </div>
                         </div>
@@ -97,11 +99,37 @@
 
                 <div class="portfolio__col">
                     <div class="work">
-                        <img class="work__image" src="./images/work.jpg" alt="Work">
+                        <img class="work__image" src="./images/works/dean.jpg" alt="Dean">
                         <div class="work__content">
-                            <div class="work__category">Portfolio</div>
+                            <div class="work__category">Texas</div>
                             <div class="work__title">
-                                Project
+                                Dean West
+                                <time class="work__date" datetime="2021-02-25 12:00">2021</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio__col">
+                    <div class="work">
+                        <img class="work__image" src="./images/works/luna.jpg" alt="Luna">
+                        <div class="work__content">
+                            <div class="work__category">New York</div>
+                            <div class="work__title">
+                                Luna Reid
+                                <time class="work__date" datetime="2021-02-25 12:00">2021</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio__col">
+                    <div class="work">
+                        <img class="work__image" src="./images/works/laurel.jpg" alt="Laurel">
+                        <div class="work__content">
+                            <div class="work__category">Washington</div>
+                            <div class="work__title">
+                                Laurel Wilcher
                                 <time class="work__date" datetime="2021-02-25 12:00">2020</time>
                             </div>
                         </div>
@@ -110,11 +138,11 @@
 
                 <div class="portfolio__col">
                     <div class="work">
-                        <img class="work__image" src="./images/work.jpg" alt="Work">
+                        <img class="work__image" src="./images/works/rosa&gary.jpg" alt="Rosa&Gary">
                         <div class="work__content">
-                            <div class="work__category">Web-Design</div>
+                            <div class="work__category">Michigan</div>
                             <div class="work__title">
-                                Project
+                                Rosa &amp; Gary
                                 <time class="work__date" datetime="2021-02-25 12:00">2020</time>
                             </div>
                         </div>
@@ -123,38 +151,12 @@
 
                 <div class="portfolio__col">
                     <div class="work">
-                        <img class="work__image" src="./images/work.jpg" alt="Work">
+                        <img class="work__image" src="./images/works/belle.jpg" alt="Belle">
                         <div class="work__content">
-                            <div class="work__category">UX & UI</div>
+                            <div class="work__category">Nebraska</div>
                             <div class="work__title">
-                                Project
-                                <time class="work__date" datetime="2021-02-25 12:00">2019</time>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio__col">
-                    <div class="work">
-                        <img class="work__image" src="./images/work.jpg" alt="Work">
-                        <div class="work__content">
-                            <div class="work__category">Neumorphic UI</div>
-                            <div class="work__title">
-                                Project
-                                <time class="work__date" datetime="2021-02-25 12:00">2018</time>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio__col">
-                    <div class="work">
-                        <img class="work__image" src="./images/work.jpg" alt="Work">
-                        <div class="work__content">
-                            <div class="work__category">Material Design</div>
-                            <div class="work__title">
-                                Project
-                                <time class="work__date" datetime="2021-02-25 12:00">2018</time>
+                                Belle Anderson
+                                <time class="work__date" datetime="2021-02-25 12:00">2020</time>
                             </div>
                         </div>
                     </div>
@@ -164,7 +166,7 @@
             <div class="text-center">
                 <a href="##" class="btn btn--sm">Load More Work</a>
             </div>
-            
+
 
         </div><!-- /.container -->
     </div><!-- /.works -->
@@ -175,20 +177,26 @@
 
             <div class="about__inner">
                 <div class="about__photo">
-                    <img class="img" src="./images/designer_photo.png" alt="Man">
+                    <img class="img" src="./images/about/about.jpg" alt="Man">
                 </div>
 
                 <div class="about__content">
                     <h3 class="about__title">About Me</h2>
-                    <h2 class="about__bigtitle">Who Am I</h2>
-                    <div class="about__text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum itaque doloremque, minus dolores, placeat inventore aperiam deleniti laboriosam, veritatis ex totam reprehenderit vitae ut nisi voluptate. Et ipsa numquam in?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui numquam fugiat sunt distinctio exercitationem earum provident praesentium soluta error veniam minus ipsam et vero sed laboriosam, facilis ab enim mollitia.</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus ex non eveniet dolorum consectetur. Autem, nemo veniam est, dolorem ipsam repellat ad in vitae debitis quos libero placeat quisquam. Sapiente?</p>
-                    </div>
+                        <h2 class="about__bigtitle">Who Am I</h2>
+                        <div class="about__text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum itaque doloremque, minus
+                                dolores, placeat inventore aperiam deleniti laboriosam, veritatis ex totam reprehenderit
+                                vitae ut nisi voluptate. Et ipsa numquam in?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui numquam fugiat sunt
+                                distinctio exercitationem earum provident praesentium soluta error veniam minus ipsam et
+                                vero sed laboriosam, facilis ab enim mollitia.</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus ex non eveniet
+                                dolorum consectetur. Autem, nemo veniam est, dolorem ipsam repellat ad in vitae debitis
+                                quos libero placeat quisquam. Sapiente?</p>
+                        </div>
 
-                    <a class="btn" href="##">Hire Me</a>
-                    <button class="btn" type="button">See My Resume</button>
+                        <a class="btn" href="##">Hire Me</a>
+                        <button class="btn" type="button">See My Resume</button>
                 </div>
 
             </div><!-- ./about__inner -->
@@ -202,20 +210,25 @@
 
             <div class="reviews__item">
                 <div class="reviews__text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consequuntur nam adipisci praesentium, totam fugiat minima aut vel sunt dolores itaque? Molestias ut eligendi ea, iure doloribus soluta deleniti reiciendis.</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, recusandae eveniet qui eos pariatur ab aliquid accusantium quam nisi impedit ipsum voluptatum explicabo illo maxime quia optio harum dolorum fuga.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consequuntur nam adipisci
+                        praesentium, totam fugiat minima aut vel sunt dolores itaque? Molestias ut eligendi ea, iure
+                        doloribus soluta deleniti reiciendis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, recusandae eveniet qui
+                        eos pariatur ab aliquid accusantium quam nisi impedit ipsum voluptatum explicabo illo maxime
+                        quia optio harum dolorum fuga.</p>
                 </div>
-            
+
                 <div class="reviews__author">
-                    <img class="reviews__photo" src="./images/avatar-big.jpg" alt="Avatar">
-                    <div class="reviews__name">Edward M. Brooks</div>
-                    <div class="reviews__company">Marketing House</div>
+                    <img class="reviews__photo" src="./images/review/review.jpg" alt="Avatar">
+                    <div class="reviews__name">Taylor Waters</div>
+                    <div class="reviews__company">412Photo Studio</div>
                     <div class="reviews__rating">
-                        <img class="reviews__star" src="./images/star.svg" width="13" height="13" alt="star">
-                        <img class="reviews__star" src="./images/star.svg" width="13" height="13" alt="star">
-                        <img class="reviews__star" src="./images/star.svg" width="13" height="13" alt="star">
-                        <img class="reviews__star" src="./images/star.svg" width="13" height="13" alt="star">
-                        <img class="reviews__star reviews__star--disabled" src="./images/star.svg" width="13" height="13" alt="star">
+                        <img class="reviews__star" src="./images/review/star.svg" width="13" height="13" alt="star">
+                        <img class="reviews__star" src="./images/review/star.svg" width="13" height="13" alt="star">
+                        <img class="reviews__star" src="./images/review/star.svg" width="13" height="13" alt="star">
+                        <img class="reviews__star" src="./images/review/star.svg" width="13" height="13" alt="star">
+                        <img class="reviews__star reviews__star--disabled" src="./images/review/star.svg" width="13"
+                            height="13" alt="star">
                     </div>
                 </div>
             </div><!-- /.reviews__item -->
@@ -237,64 +250,71 @@
                 <div class="articles__col">
                     <div class="articles__item">
                         <div class="articles__header">
-                            <time class="articles__date">10<br>June</time>
+                            <time class="articles__date">8<br>Mar</time>
                             <a href="##">
-                                <img class="articles__photo img" src="./images/article.jpg" alt="article">
+                                <img class="articles__photo img" src="./images/blog/8march.jpg" alt="8march">
                             </a>
                         </div>
                         <div class="articles__content">
                             <h4 class="articles__title">
-                                <a href="##">loona is the best app</a>
+                                <a href="##">International Women's Day</a>
                             </h4>
-                            <div class="articles__category">Category</div>
+                            <div class="articles__category">News</div>
                             <div class="articles__text">
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, iusto possimus fugiat quod similique magni eum quas numquam reiciendis doloribus, quis blanditiis veniam distinctio, assumenda est labore laudantium quibusdam ab.</p>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, iusto
+                                    possimus fugiat quod similique magni eum quas numquam reiciendis doloribus, quis
+                                    blanditiis veniam distinctio, assumenda est labore laudantium quibusdam ab.</p>
                             </div>
                         </div>
-                        <a href="##" class="btn btn--sm">Read more</a>
                     </div>
+                    <div><a href="##" class="btn btn--sm">Read more</a></div>
                 </div>
 
                 <div class="articles__col">
                     <div class="articles__item">
                         <div class="articles__header">
-                            <time class="articles__date">10<br>June</time>
+                            <time class="articles__date">14<br>Feb</time>
                             <a href="##">
-                                <img class="articles__photo img" src="./images/article.jpg" alt="article">
+                                <img class="articles__photo img" src="./images/blog/valentine.jpg" alt="14february">
                             </a>
                         </div>
                         <div class="articles__content">
                             <h4 class="articles__title">
-                                <a href="##">website inspiration</a>
+                                <a href="##">Lovely Weekend</a>
                             </h4>
-                            <div class="articles__category">Category</div>
+                            <div class="articles__category">Personal</div>
                             <div class="articles__text">
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, iusto possimus fugiat quod similique magni eum quas numquam reiciendis doloribus, quis blanditiis veniam distinctio, assumenda est labore laudantium quibusdam ab.</p>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, iusto
+                                    possimus fugiat quod similique magni eum quas numquam reiciendis doloribus, quis
+                                    blanditiis veniam distinctio, assumenda est labore laudantium quibusdam ab.</p>
                             </div>
                         </div>
-                        <a href="##" class="btn btn--sm">Read more</a>
                     </div>
+                    <div><a href="##" class="btn btn--sm">Read more</a></div>
+
                 </div>
 
                 <div class="articles__col">
                     <div class="articles__item">
                         <div class="articles__header">
-                            <time class="articles__date">10<br>June</time>
+                            <time class="articles__date">31<br>Dec</time>
                             <a href="##">
-                                <img class="articles__photo img" src="./images/article.jpg" alt="article">
+                                <img class="articles__photo img" src="./images/blog/hny.jpg" alt="#HNY">
                             </a>
                         </div>
                         <div class="articles__content">
                             <h4 class="articles__title">
-                                <a href="##">changes in media</a>
+                                <a href="##">#HNY Photosession</a>
                             </h4>
-                            <div class="articles__category">Category</div>
+                            <div class="articles__category">Work</div>
                             <div class="articles__text">
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, iusto possimus fugiat quod similique magni eum quas numquam reiciendis doloribus, quis blanditiis veniam distinctio, assumenda est labore laudantium quibusdam ab.</p>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, iusto
+                                    possimus fugiat quod similique magni eum quas numquam reiciendis doloribus, quis
+                                    blanditiis veniam distinctio, assumenda est labore laudantium quibusdam ab.</p>
                             </div>
                         </div>
-                        <a href="##" class="btn btn--sm">Read more</a>
                     </div>
+                    <div><a href="##" class="btn btn--sm">Read more</a></div>
                 </div>
 
 
@@ -316,22 +336,22 @@
                     <div class="footer__copyright">&copy; 2018 UI43 - Free Templates</div>
                     <div class="footer__social">
                         <a href="##">
-                            <img src="./images/behance-gray.svg" width="24" alt="Behance">
+                            <img src="./images/icons/behance-gray.svg" width="24" alt="Behance">
                         </a>
                         <a href="##">
-                            <img src="./images/dribbble-gray.svg" width="18" alt="Dribbble">
+                            <img src="./images/icons/dribbble-gray.svg" width="18" alt="Dribbble">
                         </a>
                         <a href="##">
-                            <img src="./images/linkedin-gray.svg" width="18" alt="LinkedIn">
+                            <img src="./images/icons/linkedin-gray.svg" width="18" alt="LinkedIn">
                         </a>
                         <a href="##">
-                            <img src="./images/fb-gray.svg" height="18" alt="Facebook">
+                            <img src="./images/icons/fb-gray.svg" height="18" alt="Facebook">
                         </a>
                         <a href="##">
-                            <img src="./images/instagram-gray.svg" width="18" alt="Instagram">
+                            <img src="./images/icons/instagram-gray.svg" width="18" alt="Instagram">
                         </a>
                         <a href="##">
-                            <img src="./images/twitter-gray.svg" width="20" alt="Twitter">
+                            <img src="./images/icons/twitter-gray.svg" width="20" alt="Twitter">
                         </a>
                     </div>
                 </div><!-- /.footer__credits -->

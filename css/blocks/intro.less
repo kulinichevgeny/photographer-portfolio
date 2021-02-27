@@ -1,7 +1,17 @@
 // main: ../style.less
+
+.mainscreen {
+	background: #fafafa url("../images/background/palm.png") center top / 3200px 4000px;
+
+}
 .intro {
 	@media @mobile {
-		margin-top: 7rem;
+		margin-top: 4.6rem;
+		
+	}
+	@media @mobile-sm {
+		margin-top: 4.6rem;
+		
 	}
 }
 .intro__inner {
@@ -11,7 +21,7 @@
 	padding: 6rem 0 8.8rem;
 	border-bottom: 1px solid fade(@gray, 30%);
 
-	background: url("../images/symbols.png") right bottom no-repeat;
+	// background: url("../images/symbols2.png") right bottom no-repeat;
 
 	@media @tablet {
 		padding: 4rem 0;
@@ -65,13 +75,15 @@
 .intro__photo {
 	position: absolute;
 	bottom: -1px;
-	right: 0;
+	right: 80px;
 
 	@media @tablet {
-		width: 350px;
+		width: 260px;
+		right: 60px;
 	}
 	@media @mobile {
-		width: 300px;
+		width: 250px;
+		right: 25px;
 	}
 	@media @mobile-sm {
 		display: none;
